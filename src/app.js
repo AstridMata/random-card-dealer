@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let palos = [":diamantes:", ":corazones:", ":picas:", ":tréboles:"];
+  let palos = ["♥", "♥", "♠", "♣"];
   let numeros = [
     "A",
     "2",
