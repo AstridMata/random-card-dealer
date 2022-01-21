@@ -1,32 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-div * {
-  outline-style: dotted;
-}
-
 * {
-  outline-style: dotted;
+  outline-style: none;
   margin: 0;
   padding: 0;
 }
+
 .table {
   height: 100vh;
-  background-color: yellowgreen;
+  background-color: #11730e;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: none;
 }
 .my-card {
   background-color: white;
   width: 300px;
   height: 450px;
+  border-radius: 20px;
 }
 .header-card {
-  height: 100px;
+  height: 150px;
+  font-size: xxx-large;
+  text-align: left;
+  line-height: 100px;
+  padding-top: 20px;
 }
-center-card {
-  height: 250px;
+.center-card {
+  height: 150px;
+  text-align: center;
+  font-size: xxx-large;
+  padding-top: 20px;
 }
-footer-card {
-  height: 100px;
+.footer-card {
+  height: 150px;
+  font-size: xxx-large;
+  text-align: right;
+  line-height: 100px;
+  padding-top: 20px;
+}
+
+span.numero {
+  font-size: 100%;
+  line-height: 100px;
+}
+
+.footer-card span.palo {
+  transform: rotate(180deg);
 }
