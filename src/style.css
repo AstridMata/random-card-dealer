@@ -18,11 +18,11 @@
   background-color: white;
   width: 300px;
   height: 450px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .header-card {
   height: 150px;
-  font-size: xxx-large;
+  font-size: 80px;
   text-align: left;
   line-height: 100px;
   padding-top: 20px;
@@ -30,12 +30,12 @@
 .center-card {
   height: 150px;
   text-align: center;
-  font-size: xxx-large;
+  font-size: 80px;
   padding-top: 20px;
 }
 .footer-card {
   height: 150px;
-  font-size: xxx-large;
+  font-size: 80px;
   text-align: right;
   line-height: 100px;
   padding-top: 20px;
