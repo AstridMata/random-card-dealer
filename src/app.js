@@ -42,5 +42,5 @@ window.onload = function() {
     elem.style.color = palo.color;
   });
   document.querySelector(".numero").innerHTML = numero;
-  //document.querySelector(".numero").style.color = palo.color;
+  document.querySelector(".numero").style.color = palo.color;
 };
