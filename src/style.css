@@ -36,16 +36,12 @@
 .footer-card {
   height: 150px;
   font-size: 80px;
-  text-align: right;
   line-height: 100px;
   padding-top: 20px;
+  transform: rotate(180deg);
 }
 
 span.numero {
   font-size: 100%;
   line-height: 100px;
-}
-
-.footer-card span.palo {
-  transform: rotate(180deg);
 }
